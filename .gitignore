@@ -31,8 +31,28 @@
 *.out
 *.app
 
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.VC.db
+*.tlog
+
 # ThirdParty
 ThirdParty/
 
 # Builds
 Builds/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.ipdb
+*.iobj
+*.log
+*.recipe
+*.o
+*.a

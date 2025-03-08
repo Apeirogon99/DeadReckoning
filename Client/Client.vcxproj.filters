@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main\main.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="GameData\Character.cpp" />
+    <ClCompile Include="GameData\Wall.cpp" />
+    <ClCompile Include="GameData\Actor.cpp" />
+    <ClCompile Include="GameData\World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="GameData\Character.h" />
+    <ClInclude Include="GameData\Wall.h" />
+    <ClInclude Include="GameData\Actor.h" />
+    <ClInclude Include="GameData\World.h" />
+  </ItemGroup>
+</Project>
